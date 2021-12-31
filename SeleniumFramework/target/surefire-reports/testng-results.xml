@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="7443" started-at="2021-12-30T10:43:43Z" finished-at="2021-12-30T10:43:51Z">
+    <groups>
+      <group name="SmokeTest">
+        <method signature="ConatctTest.createConatctTest()[pri:0, instance:com.ccrm.contacttest.ConatctTest@783e6358]" name="createConatctTest" class="com.ccrm.contacttest.ConatctTest"/>
+        <method signature="OrgTest.createOrgTest()[pri:0, instance:com.ccrm.orgTest.OrgTest@17550481]" name="createOrgTest" class="com.ccrm.orgTest.OrgTest"/>
+      </group> <!-- SmokeTest -->
+      <group name="RegressionTest">
+        <method signature="ConatctTest.modifyContactTest()[pri:0, instance:com.ccrm.contacttest.ConatctTest@783e6358]" name="modifyContactTest" class="com.ccrm.contacttest.ConatctTest"/>
+        <method signature="OrgTest.modifyOrgTest()[pri:0, instance:com.ccrm.orgTest.OrgTest@17550481]" name="modifyOrgTest" class="com.ccrm.orgTest.OrgTest"/>
+      </group> <!-- RegressionTest -->
+    </groups>
+    <test name="Command line test" duration-ms="7443" started-at="2021-12-30T10:43:43Z" finished-at="2021-12-30T10:43:51Z">
+      <class name="com.ccrm.contacttest.ConatctTest">
+        <test-method status="PASS" signature="createConatctTest()[pri:0, instance:com.ccrm.contacttest.ConatctTest@783e6358]" name="createConatctTest" duration-ms="7398" started-at="2021-12-30T10:43:43Z" finished-at="2021-12-30T10:43:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createConatctTest -->
+        <test-method status="PASS" signature="modifyContactTest()[pri:0, instance:com.ccrm.contacttest.ConatctTest@783e6358]" name="modifyContactTest" duration-ms="0" started-at="2021-12-30T10:43:51Z" finished-at="2021-12-30T10:43:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyContactTest -->
+      </class> <!-- com.ccrm.contacttest.ConatctTest -->
+      <class name="com.ccrm.orgTest.OrgTest">
+        <test-method status="PASS" signature="createOrgTest()[pri:0, instance:com.ccrm.orgTest.OrgTest@17550481]" name="createOrgTest" duration-ms="0" started-at="2021-12-30T10:43:51Z" finished-at="2021-12-30T10:43:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrgTest -->
+        <test-method status="PASS" signature="modifyOrgTest()[pri:0, instance:com.ccrm.orgTest.OrgTest@17550481]" name="modifyOrgTest" duration-ms="0" started-at="2021-12-30T10:43:51Z" finished-at="2021-12-30T10:43:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyOrgTest -->
+      </class> <!-- com.ccrm.orgTest.OrgTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

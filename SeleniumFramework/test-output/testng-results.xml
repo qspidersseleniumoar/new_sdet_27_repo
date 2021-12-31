@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-12-30T10:47:03Z" name="Default suite" finished-at="2021-12-30T10:47:06Z" duration-ms="3075">
+    <groups>
+      <group name="SmokeTest">
+        <method signature="ConatctTest.createConatctTest()[pri:0, instance:com.ccrm.contacttest.ConatctTest@10f7f7de]" name="createConatctTest" class="com.ccrm.contacttest.ConatctTest"/>
+      </group> <!-- SmokeTest -->
+      <group name="RegressionTest">
+        <method signature="ConatctTest.modifyContactTest()[pri:0, instance:com.ccrm.contacttest.ConatctTest@10f7f7de]" name="modifyContactTest" class="com.ccrm.contacttest.ConatctTest"/>
+      </group> <!-- RegressionTest -->
+    </groups>
+    <test started-at="2021-12-30T10:47:03Z" name="Default test" finished-at="2021-12-30T10:47:06Z" duration-ms="3075">
+      <class name="com.ccrm.contacttest.ConatctTest">
+        <test-method signature="createConatctTest()[pri:0, instance:com.ccrm.contacttest.ConatctTest@10f7f7de]" started-at="2021-12-30T10:47:03Z" name="createConatctTest" finished-at="2021-12-30T10:47:06Z" duration-ms="3032" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createConatctTest -->
+        <test-method signature="modifyContactTest()[pri:0, instance:com.ccrm.contacttest.ConatctTest@10f7f7de]" started-at="2021-12-30T10:47:06Z" name="modifyContactTest" finished-at="2021-12-30T10:47:06Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyContactTest -->
+      </class> <!-- com.ccrm.contacttest.ConatctTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
